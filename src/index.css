@@ -1,13 +1,25 @@
-body {
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+@layer components {
+  .navItems {
+    @apply flex items-center space-x-1 hover:text-white hover:bg-blue_light py-4 px-2 text-blue_light
+  }
+  .btn {
+    @apply flex items-center bg-white text-blue_light border border-blue_light 
+    py-1 px-2 space-x-1 text-sm rounded hover:bg-blue_light hover:text-white
+  }
+  .activeBtn {
+    @apply text-blue-900 p-2 px-3 bg-[#D1F2FF] rounded-full
+  }
+  .filterBtn {
+    @apply px-3 p-2 text-blue-900 border border-gray-300 rounded-full
+  }
+} 

@@ -1,0 +1,42 @@
+export const payItems = [
+    {
+        id : 1,
+        name : "Name.com Inc.",
+        time : "jun 22 . Automatic Payment",
+        isPay : true,
+        value : "-$9.89",
+        type : "Automatic Payment",
+    },
+    {
+        id : 2,
+        name : "Name.com Inc.",
+        time : "jun 22 . Automatic Payment",
+        isPay : true,
+        value : "-$9.89",
+        type : "Automatic Payment",
+    },
+    {
+        id : 3,
+        name : "Name.com Inc.",
+        time : "jun 22 . Automatic Payment",
+        isPay : false,
+        value : "-$9.89",
+        type : "Automatic Payment",
+    },
+    {
+        id : 4,
+        name : "Name.com Inc.",
+        time : "jun 22 . Automatic Payment",
+        isPay : false,
+        value : "-$9.89",
+        type : "offline payment",
+    },
+    {
+        id : 5,
+        name : "Name.com Inc.",
+        time : "jun 22 . Automatic Payment",
+        isPay : false,
+        value : "-$9.89",
+        type : "offline payment",
+    },
+]
